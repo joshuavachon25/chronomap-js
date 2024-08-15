@@ -21,10 +21,10 @@
 		"entries": [
 			{
 				"type": "operation",
-				"name": "chronomap-flow",
+				"name": "operation-tesseract-ocr",
 				"source": {
-					"app": "src/chronomap-flow/app.ts",
-					"api": "src/chronomap-flow/api.ts"
+					"app": "src/tesseract/app.ts",
+					"api": "src/tesseract/api.ts"
 				}
 			}
 		],
@@ -41,5 +41,10 @@
 		"@types/node": "^22.0.0",
 		"typescript": "^5.5.4",
 		"vue": "^3.4.34"
+	},
+	"dependencies": {
+		"@techstark/opencv-js": "^4.10.0-beta.1",
+		"sharp": "^0.33.4",
+		"tesseract.js": "^5.1.0"
 	}
 }

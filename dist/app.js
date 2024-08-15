@@ -1,0 +1,1 @@
+const t=[],e=[],i=[],n=[],o=[],r=[],c=[{id:"operation-tesseract-ocr",name:"OCR",icon:"electric_bolt",description:"OCR un fichier",overview:({text:t})=>[{label:"Text",text:text}],options:[{field:"text",name:"Text",type:"string",meta:{width:"full",interface:"input"}}]}];export{e as displays,t as interfaces,i as layouts,n as modules,c as operations,o as panels,r as themes};
